@@ -20,6 +20,12 @@ git push origin <branch-name>
 ```bash
 git push origin <branch-name>:pre-final
 ```
+* Step 6: Incase you were working on the github website in your branch or to access the updated files use
+```bash
+# branch could be your independent branch or pre-final
+git pull origin <branch>
+```
+
 
 ## References  
 * If you need more assistance you can checkout http://rogerdudler.github.io/git-guide/ or https://try.github.io or https://github.com/medgardo/ctp2016/blob/master/guides/git.md
